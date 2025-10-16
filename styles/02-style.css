@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: rgba(0, 0, 255, 0.5);
+  color: #abcde1;
+  color: hsla(184, 89%, 48%, 0.9);
+}
+p {
+  color: green;
+  /* text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-style: dotted;
+  text-decoration-style: wavy;
+  text-decoration-color: hotpink; */
+  /* line-height: 25px;
+  word-spacing: 30px;
+  letter-spacing: 10px;
+  text-wrap: wrap;
+  text-indent: 50px;
+  text-shadow: 8px -8px 1px black;
+  text-transform: capitalize; */
+  //text-align: center;
+  font-size: 20px;
+}

@@ -1,0 +1,11 @@
+section {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  background-color: dodgerblue;
+  background-image: url("/images/iceland-1747368_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}

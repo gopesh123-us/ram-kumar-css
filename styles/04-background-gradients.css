@@ -1,0 +1,12 @@
+section {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+  //background-image: radial-gradient(circle, #1e9600, #fff200, #ff0000);
+  //background-image: conic-gradient(#1e9600 0deg, #1e9600 45deg, #fff200 46deg, #fff200 90deg, #ff0000);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+h1 {
+  text-align: center;
+}

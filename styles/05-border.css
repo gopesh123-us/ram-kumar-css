@@ -1,0 +1,20 @@
+.border-div {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  border-style: dotted;
+  border-style: dashed;
+  border-style: ridge;
+  border-style: groove;
+  /* border-width: BTW/BRW/BBW/BLW
+                BTW/BBW BRW/BLW
+                BTW  BRW/BLW BBW */
+  border-color: red;
+  border-radius: 10%;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}

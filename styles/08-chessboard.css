@@ -1,0 +1,31 @@
+.main-board {
+  height: 480px;
+  width: 480px;
+  background-color: rgb(197, 195, 195);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  border: 1px solid rgb(184, 181, 181);
+}
+.box {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.box.player-1 {
+  color: rgb(235, 230, 230);
+}
+.box.player-2 {
+  color: rgb(167, 162, 162);
+}
+.odd-row .box:nth-of-type(odd),
+.even-row .box:nth-of-type(even) {
+  background-color: rgb(77, 78, 78);
+}
+.odd-row .box:nth-of-type(even),
+.even-row .box:nth-of-type(odd) {
+  background-color: rgb(196, 77, 77);
+}
