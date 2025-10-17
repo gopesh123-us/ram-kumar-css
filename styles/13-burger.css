@@ -17,7 +17,7 @@
 .main {
   height: 644px;
   width: 754px;
-  background-image: url("/images/burger.jpg");
+  background-image: url("images/burger.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
