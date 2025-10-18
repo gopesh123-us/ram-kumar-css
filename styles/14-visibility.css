@@ -1,0 +1,22 @@
+section > p {
+  height: 500px;
+  width: 500px;
+  background-color: orangered;
+  font-size: 2rem;
+}
+
+article {
+  height: 500px;
+  width: 500px;
+  color: rgb(226, 84, 84);
+  background-color: teal;
+  font-size: 2rem;
+}
+
+section > p:hover {
+  visibility: none;
+}
+
+article > p:hover {
+  display: none;
+}

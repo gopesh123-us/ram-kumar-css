@@ -1,0 +1,36 @@
+section {
+  height: 500px;
+  width: 500px;
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-content: center;
+  align-content: flex-end;
+  gap: 3px;
+
+  /* align-items: start;
+  align-items: center;
+  align-items: end;
+  justify-content: start;
+  justify-content: center;
+  justify-content: end;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  justify-content: space-around; */
+}
+article {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+section > article:nth-child(1) {
+  background-color: red;
+}
+section > article:nth-child(2) {
+  background-color: green;
+}
+section > article:nth-child(3) {
+  background-color: dodgerblue;
+}
