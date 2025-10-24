@@ -1,0 +1,38 @@
+nav {
+  height: 70px;
+  display: flex;
+  border: 1px solid orangered;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section {
+  border: solid;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav section:first-child {
+  flex-basis: 10%;
+}
+nav section:nth-child(2) {
+  flex-basis: 70%;
+}
+nav section:last-child {
+  flex-basis: 20%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid;
+  width: 90%;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+section article:first-child {
+  background-color: rgb(241, 88, 88);
+}
+section article:nth-child(2) {
+  background-color: lightcoral;
+}
+section article:nth-child(3) {
+  background-color: lightsalmon;
+}
+section article:nth-child(4) {
+  background-color: yellowgreen;
+}
+section article:nth-child(5) {
+  background-color: yellow;
+}
+section article:nth-child(6) {
+  background-color: orangered;
+}
+section article:nth-child(7) {
+  background-color: hotpink;
+}
+section article:nth-child(8) {
+  background-color: dodgerblue;
+}
+section article:last-child {
+  background-color: cyan;
+}

@@ -1,0 +1,42 @@
+@media screen and (max-width: 640px) {
+  section::before {
+    content: "Mobile";
+  }
+  body {
+    background-color: red;
+    color: #fff;
+    height: 100vh;
+  }
+}
+
+@media screen and ((min-width: 641px) and (max-width: 1024px)) {
+  section::before {
+    content: "Tablet";
+  }
+  body {
+    background-color: rgb(145, 255, 0);
+    color: #292727;
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1025px) {
+  section::before {
+    content: "Desktop";
+  }
+  body {
+    background-color: rgb(0, 153, 255);
+    color: #292727;
+    height: 100vh;
+  }
+}
+
+@media print and (orientation: portrait) {
+  section::before {
+    content: "Portrait";
+  }
+  body {
+    background-color: rgb(212, 0, 255);
+    color: #292727;
+    height: 100vh;
+  }
+}

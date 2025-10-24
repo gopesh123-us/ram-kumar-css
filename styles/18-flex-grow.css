@@ -1,0 +1,40 @@
+section {
+  /* width: 700px; */
+  border: 1px solid red;
+  display: flex;
+}
+article {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 300px; */
+  border: 1px solid gray;
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+/* section article:first-child {
+  order: 3;
+}
+section article:nth-child(2) {
+  order: 1;
+}
+section article:last-child {
+  order: 2;
+} */
+
+.article-1 {
+  background-color: rgb(3, 52, 68);
+}
+.article-2 {
+  background-color: rgb(37, 148, 148);
+  flex-grow: 2;
+}
+.article-3 {
+  background-color: rgb(216, 41, 64);
+}
