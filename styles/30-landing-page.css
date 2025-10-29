@@ -43,71 +43,86 @@
   cursor: pointer;
 }
 .nav-item {
-  height: 100%;
+  height: 65px;
+  min-width: 90px;
   border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .nav-link {
   text-decoration: none;
   color: rgba(44, 43, 43, 0.925);
   font-size: 0.82rem;
   font-weight: 600;
-  position: relative;
-  transition: all 0.4s;
-}
-
-.nav-link:nth-of-type(0)::after {
-  content: "";
-  height: 4px;
-  width: 100%;
-  background-color: rgb(0, 183, 255);
   position: absolute;
-  left: 0;
-  bottom: -32px;
+  transition: all 0.2s;
+  margin-top: 50%;
+  height: 100%;
+}
+.nav-item::after {
+  content: "";
+  width: 100%;
+  min-width: 50px;
+  height: 4px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
   opacity: 0;
   transition: all 0.2s;
-  pointer-events: none;
-}
-.nav-link::after {
-  content: "";
-  height: 4px;
-  width: 100%;
-  background-color: rgb(255, 153, 0);
-  position: absolute;
-  left: 0;
-  bottom: -32px;
-  opacity: 0;
-  transition: all 0.2s;
+  background-color: #000000;
   pointer-events: none;
 }
 .link-1::after {
+  content: "";
+  min-width: 960px;
+  height: 468px;
+  position: absolute;
+  left: -50px;
+  top: 40px;
+  opacity: 0;
+  transition: all 0.2s;
+  background-color: #eeebeb;
+  pointer-events: none;
+}
+.link-1:hover::after {
+  opacity: 1;
+}
+.item-1:hover::after {
   background-color: #3fff69;
 }
-.link-2::after {
+
+.item-2:hover::after {
+  background-color: #ff3f6c;
+}
+.item-3:hover::after {
   background-color: #ff6c3f;
 }
-.link-3::after {
+.item-4:hover::after {
   background-color: #3f7cff;
 }
-.link-4::after {
-  background-color: #b93fff;
-}
-.link-5::after {
+.item-5:hover::after {
   background-color: #ecff3f;
 }
-.link-6::after {
+.item-6:hover::after {
   background-color: #3fc9ff;
 }
-.link-7::after {
+.item-7:hover::after {
   background-color: #ffbc3f;
 }
 
-.nav-link:hover::after {
+.nav-item:hover::after {
+  background-color: 4px solid #3fff69;
   opacity: 1;
-  pointer-events: none;
 }
 
 .nav-list sup {
+  display: inline;
   font-size: 0.6rem;
   color: #ff3f6c;
   font-weight: bold;
