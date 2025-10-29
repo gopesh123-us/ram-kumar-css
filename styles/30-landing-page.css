@@ -78,18 +78,25 @@
   background-color: #000000;
   pointer-events: none;
 }
-.link-1::after {
-  content: "";
+
+.aside {
   min-width: 960px;
   height: 468px;
   position: absolute;
-  left: -50px;
-  top: 40px;
-  opacity: 0;
+  left: -30px;
+  top: 64px;
+  display: none;
   transition: all 0.2s;
-  background-color: #eeebeb;
-  pointer-events: none;
+  background-color: #f1eded;
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding: 20px;
 }
+
+.item-1:hover .aside {
+  display: block;
+}
+
 .link-1:hover::after {
   opacity: 1;
 }
@@ -198,4 +205,23 @@
 }
 .shopping_bag {
   color: rgba(255, 0, 0, 0.753);
+}
+/*
+main container styles
+*/
+.main-container {
+  background-image: linear-gradient(to right, #f8f7f7, #f8f7f7);
+  border: none;
+  outline: none;
+  border-top: 0.5px solid rgb(235, 232, 232);
+  padding: 50px;
+}
+.main-container .hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.hero img {
+  width: 900px;
+  height: 520px;
 }
